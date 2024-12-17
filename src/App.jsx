@@ -11,7 +11,7 @@ import './App.css'
 function App() {
 
   return (
-    <BrowserRouter>
+    <>
       <Navbar />
       <Themes />
       <Routes>
@@ -20,7 +20,7 @@ function App() {
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
-    </BrowserRouter>
+    </>
   )
 }
 
